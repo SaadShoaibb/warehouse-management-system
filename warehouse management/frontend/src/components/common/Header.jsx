@@ -33,7 +33,7 @@ const Header = ({ title }) => {
           </button>
 
           {isDropdownOpen && (
-            <div className="absolute right-[-80px] transition duration-500 ease-in-out w-48 z-50 bg-red-700 text-gray-100 rounded-lg shadow-lg">
+            <div className="absolute right-[-23px] transition duration-500 ease-in-out w-20 z-50 bg-red-700 text-gray-100 rounded-lg shadow-lg">
               <button
                 onClick={handleLogout}
                 className="w-full text-left px-4 py-2 hover:bg-red-500 hover:transition-all hover:duration-300 rounded-lg"
